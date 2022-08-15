@@ -1,5 +1,12 @@
 body {
-    background-color: #29bf12; 
-    color: #f21b3f;
+    background-color: #f39c6b; 
+    color: #261447;
+    margin: auto 0;
 }
 
+.heading {
+    background-color: #261447; 
+    color: #cc978e;
+    padding: 5px;
+    text-align: center;
+}
