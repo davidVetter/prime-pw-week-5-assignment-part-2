@@ -1,18 +1,45 @@
 body {
-    background-color: #f39c6b;
-    background-image: url('record.png');
-    background-repeat: repeat;
-    color: #261447;
     margin: 0;
 }
 
+.bodyMain {
+    background-color: #f97068;
+    background-image: url('record.png');
+    background-repeat: repeat;
+    color: #d1d646;
+    word-wrap: break-word;
+}
+
 .head {
-    background-color: #261447; 
-    color: #cc978e;
+    background-color: #212738; 
+    color: #edf2ef;
     text-align: center;
 }
 
 .mainContent {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-around;
+    align-items:center;
     background-color: #6e8894;
     padding: 1em;
+    width: 80%;
+    height: auto;
+    margin: auto;
+    border-radius: 7px;
+}
+
+.list {
+    width: 200px;
+    padding-right: 5px;
+}
+
+.recImg {
+    width: 40%;
+    height: auto;
+}
+
+.mainP {
+    width: 200px;
+    padding-left: 5px;
 }
